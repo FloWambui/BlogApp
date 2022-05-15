@@ -3,6 +3,7 @@ from . import main
 from ..requests import get_quote, get_quotes
 from ..models import Quote
 from .forms import CommentForm
+from flask_login import login_required
 
 
 
