@@ -1,0 +1,8 @@
+{% macro displayPopularQuote(popular_quote) %}
+
+    {% for quote in popular_quote %}
+        <li>{{quote.quote}},<p>~ {{quote.author}}</p></li>
+        
+    {% endfor %}
+
+{% endmacro %}

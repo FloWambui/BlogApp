@@ -1,0 +1,14 @@
+{% extends 'base.html'%}
+{% import 'macros.html' as macro%} ...
+<body>
+    {% block content %}
+
+  <!-- Popular Quote -->
+  <h3 class="text-center pb-5">Popular Tech Quotes ....</h3>
+  <ul>
+    {{ macro.displayPopularQuote(popular)}}
+    
+  </ul>
+
+  {% endblock%}
+</body>
