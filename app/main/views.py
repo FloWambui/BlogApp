@@ -21,3 +21,7 @@ def quotes():
  
     popular_quotes = get_quotes('popular')
     return render_template('quotes.html',popular = popular_quotes)
+
+@main.route('/loggedin')
+def loggedin():
+    return render_template('login.html')
