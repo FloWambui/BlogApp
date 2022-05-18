@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+body {
+  background-image: url(../photos/backdrop.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.comment-form {
+  margin-top: 6%;
+  height: 300px;
+  left: 200px;
+  width: 430px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+}
+.login-form {
+  margin-top: 6%;
+  width: 430px;
+  height: 430px;
+  left: 200px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+}
+.login-form h2 {
+  margin-left: 37%;
+  left: 205px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #000000;
+}
+.login-form input {
+  outline: none;
+  background: transparent;
+  border: 1px solid black;
+  width: 270px;
+  margin-left: 15%;
+  height: 35px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.login-form label {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 1%;
+  margin-left: 15%;
+  color: #000000;
+}
+.comment-form label {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  padding-top: 5%;
+}
+.comment-form input[type="submit"] {
+  width: 270px;
+  height: 40px;
+  background-color: #030303;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Montserrat;
+  line-height: 22px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.login-form input[type="submit"] {
+  width: 270px;
+  height: 40px;
+  background-color: #030303;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Montserrat;
+  line-height: 22px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.signup-form {
+  margin-top: 3%;
+  width: 430px;
+  height: 550px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+}
+.signup-form h2 {
+  margin-left: 37%;
+  left: 205px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #000000;
+}
+.signup-form input {
+  outline: none;
+  background: transparent;
+  border: 1px solid black;
+  width: 300px;
+  margin-left: 15%;
+  height: 35px;
+  border-radius: 10px;
+
+}
+.signup-form label {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 1%;
+  margin-left: 15%;
+  color: #000000;
+}
+.signup-form input[type="submit"] {
+  width: 270px;
+  height: 40px;
+  color: white;
+  background-color:#000000;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Montserrat;
+  line-height: 22px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+
+}
+.update-form {
+  margin-top: 7%;
+  width: 430px;
+  height: 300px;
+  left: 200px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+}
+.update-form h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 2%;
+  color: #000000;
+}
+.update-form input {
+  outline: none;
+  background: transparent;
+  border: 1px solid black;
+  width: 300px;
+  margin-left: 15%;
+  height: 70px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.update-form label {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 3%;
+  margin-top: 1%;
+  color: #000000;
+}
+.update-form input[type="submit"] {
+  width: 270px;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Montserrat;
+  line-height: 22px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}

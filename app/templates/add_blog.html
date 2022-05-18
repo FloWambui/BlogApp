@@ -7,16 +7,13 @@
 <link rel="stylesheet" href="{{url_for('static',filename='css/login.css')}}">
 {% endblock %}
 
+<body>
 {% block content %}
 <div class="container">
     <div class="row">
       <div class="col-md-2"></div>
       <div class="col-md-8 login-form">
           <h2>ADD BLOG POST</h2>
-          
-        
-        
-        <!-- Login form -->
         {{wtf.quick_form(form)}}
        
       </div>
@@ -25,4 +22,4 @@
   </div>
 </div>
 {% endblock %}
-
+</body>
