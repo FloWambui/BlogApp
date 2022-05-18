@@ -26,12 +26,12 @@ class Config:
 
 
 class ProdConfig(Config):
-    # uri = os.getenv('DATABASE_URL')
-    # if uri and uri.startswith('postgres://'):
-    #     uri = uri.replace('postgres://', 'postgresql://', 1)    
-    # SQLALCHEMY_DATABASE_URI = uri
+    uri = os.getenv('DATABASE_URL')
+    if uri and uri.startswith('postgres://'):
+        uri = uri.replace('postgres://', 'postgresql://', 1)    
+    SQLALCHEMY_DATABASE_URI = uri
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://flora:wambui@localhost/blog'
-
+DEBUG = True
 
 
 class TestConfig(Config):
@@ -39,7 +39,7 @@ class TestConfig(Config):
 
 class DevConfig(Config):
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://flora:wambui@localhost/blog'
-    DEBUG = True
+    
 
 config_options = {
 'development':DevConfig,
