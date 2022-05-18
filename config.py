@@ -19,10 +19,18 @@ class Config:
     MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
 
+    # simple mde  configurations
+    SIMPLEMDE_JS_IIFE = True
+    SIMPLEMDE_USE_CDN = True
+
 
 
 class ProdConfig(Config):
-    pass
+    # uri = os.getenv('DATABASE_URL')
+    # if uri and uri.startswith('postgres://'):
+    #     uri = uri.replace('postgres://', 'postgresql://', 1)    
+    # SQLALCHEMY_DATABASE_URI = uri
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://flora:wambui@localhost/blog'
 
 
 
